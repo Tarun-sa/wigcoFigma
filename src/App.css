@@ -27,6 +27,112 @@
 .App-link {
   color: #61dafb;
 }
+.logo{
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-left: 40px;
+}
+.profile-image{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.heading{
+  text-align: center;
+}
+.form{
+margin:0rem 18rem;
+position:relative;
+}
+
+input{
+    background:white;
+    border:2px solid #97DECE;
+    border-radius: 7px;
+    font-size:1.5rem;
+    color:#97DECE;
+    outline:none;
+    padding: 1rem 3rem;
+    width:50%;
+    margin-right: 10px;
+}
+
+.parentSearch{
+  position: relative;
+}
+.searchIcon{
+color:grey;
+position: absolute;
+left:23%;
+top:35%;
+z-index: 2;
+font-size: 20px;
+font-weight: lighter;
+margin-right: 15px;
+cursor: pointer;
+}
+.check{
+  position: absolute;
+  right:17%;
+  padding: 22px 50px;
+  background-color: #97DECE;
+  border:2px solid #97DECE;
+  outline: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.profileCard{
+width:350px;
+height: 480px;
+border-radius: 5px;
+border: 2px solid #97DECE;
+}
+.profileCard img{
+  margin-top: 20px;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  border: 2px dotted  #97DECE;
+}
+.userInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userInfo svg{
+  font-size: 30px;
+  color:#FFAEBC;
+}
+.userInfo h3{
+  padding-left: 10px;
+  color:black;
+}
+.socialInfo{
+margin-top: 15px; 
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.socialInfo svg{
+  font-size: 20px;
+  color:#FFAEBC;
+}
+.socialDetail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+  
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +142,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
